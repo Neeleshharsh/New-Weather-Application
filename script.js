@@ -25,12 +25,9 @@ function changeTextColor() {
   
   // Apply to entire card
   weatherCard.style.color = color;
-
-  // Also apply to specific elements explicitly
-  document.getElementById("temp").style.color = color;
-  document.getElementById("location").style.color = color;
+  
+  // Applying the color change functionality to DateAndTime explicitly
   document.getElementById("dateAndTime").style.color = color;
-  document.getElementById("status").style.color = color;
 }
 
 form.addEventListener("submit", function (e) {
@@ -61,3 +58,4 @@ async function fetchWeather(city) {
     console.error(error);
   }
 }
+
