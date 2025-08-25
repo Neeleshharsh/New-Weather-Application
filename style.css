@@ -31,7 +31,7 @@ body {
 }
 
 .temp {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -41,12 +41,12 @@ body {
 }
 
 .datetime {
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: #ddd;
 }
 
 .status {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-top: 0.5rem;
   text-transform: capitalize;
 }
