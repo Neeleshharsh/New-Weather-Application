@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pro Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <div class="weather-card">
+      <h1 class="temp" id="temp">--°C</h1>
+      <h2 class="location" id="location">Search a city</h2>
+      <p class="datetime" id="dateAndTime">--:--</p>
+      <p class="status" id="status">---</p>
+    </div>
+
+    <form id="searchForm" class="search-box">
+      <input type="text" id="target" placeholder="Search city..." required>
+      <button type="submit">Search</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
